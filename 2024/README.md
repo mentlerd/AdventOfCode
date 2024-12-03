@@ -27,3 +27,11 @@ On the topic of the task there isn't much to talk about. I found Rust's type inf
 [5]: https://github.com/llvm/llvm-project/tree/main/libcxx
 [6]: https://github.com/abseil/abseil-cpp
 [7]: https://youtrack.jetbrains.com/issue/RUST-15839/Strings-and-vecs-dont-show-in-the-debugger
+
+### Day 03 - Interpreter
+
+It's been a while since I had to do any sort of manual text parsing. Implementing a simple greedy interpreter
+seemed both nostalgic and fun to do. Associated values in enums is great!
+
+I have to admit that I mostly just powered through most of the excercises so far without giving a proper read
+to the rust book.. hopefully this defficiency does not catch up with be before the weekend :)
