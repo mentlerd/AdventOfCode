@@ -35,3 +35,13 @@ seemed both nostalgic and fun to do. Associated values in enums is great!
 
 I have to admit that I mostly just powered through most of the excercises so far without giving a proper read
 to the rust book.. hopefully this defficiency does not catch up with be before the weekend :)
+
+### Day 04 - Rotating vertical detectors
+
+I have been always fascinated by how spatial geometry equations and problems can be made orders of magnitudes 
+easier by just transforming the input into a convenient local coordinate system. Today's task is no different,
+where the pesky diagonals can be made trivial to reason about by skewing the input data in the negative/positive
+direction by "moving" the detector state machines around.
+
+An other neat trick of doing this is to do one more perspective shift. Why spend O(N) to actually move the detectors
+when you can just move your view instead in O(1) using circular buffers :)
